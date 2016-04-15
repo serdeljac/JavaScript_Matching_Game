@@ -1,0 +1,102 @@
+/*
+	Created by Stjepan Erdeljac
+	Student #: a00658002
+	COMP1911 Final Project
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: black;
+	font-family: georgia, serif, "Times New Roman";
+	}
+	
+body {
+	margin: auto;
+	width: 100%;
+	background-color: #111;
+	}
+	
+hr {margin: 10px 0; border: 3px solid #400;}
+	
+#container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1400px;
+	height: 850px;
+	}
+	
+/*---------------------------------------------------------*/
+header {
+	width: 100%;
+	height: 110px;
+	border:  3px solid black;
+	background: #000 url(../img/headerbg.jpg) no-repeat;
+	}
+	
+/*---------------------------------------------------------*/
+aside {
+	width: 20%;
+	height: 734px;
+	float: left;
+	border-right: 5px solid black;
+	background: #000 url(../img/asidebg.jpg) no-repeat;
+	}
+	
+#start_end {
+	width: 100%;
+	height: 150px;
+	background: url(../img/start.png) no-repeat;
+	}
+	
+#matches div {
+	width: 100%;
+	margin: 10px 0;
+	background-color: #300;
+	text-align: center;
+	color: white;
+	font: bold 30px georgia, sans-serif;
+}
+
+
+#set_loc {visibility: hidden;}
+.monlist {display: none;}
+/*---------------------------------------------------------*/
+#stats {
+	width: 79.64%;
+	height: 50px;
+	float: left;
+	border-bottom: 5px solid black;
+	background: #000 url(../img/statsbg.jpg) no-repeat;
+	}
+	
+.stats-sub {
+	margin-left: 40px;
+	height: 50px;
+	float: left;
+	font: bold 40px georgia, serif, "Times New Roman";
+	}
+
+	
+/*---------------------------------------------------------*/
+main {
+	width: 79.64%;
+	height: 680px;
+	float: left;
+	background: #000 url(../img/mainbg.jpg) no-repeat;
+	}
+	
+.inactive {
+	display: none;
+	}
+	
+.row {margin-left: 80px;}
+	
+.tile {
+	margin: 10px 20px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	background: #000 url(../img/monster_cover.jpg) no-repeat;
+	}
