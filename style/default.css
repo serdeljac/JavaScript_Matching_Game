@@ -86,17 +86,52 @@ main {
 	float: left;
 	background: #000 url(../img/mainbg.jpg) no-repeat;
 	}
-	
+
+
+
 .inactive {
 	display: none;
 	}
-	
-.row {margin-left: 80px;}
-	
+
 .tile {
-	margin: 10px 20px;
 	width: 150px;
 	height: 150px;
-	float: left;
-	background: #000 url(../img/monster_cover.jpg) no-repeat;
+	background-image: url(../img/monster_cover.jpg); 
+	position: absolute;
 	}
+
+	
+.row_01 {position: absolute; top: 20%; left: 35%}
+.tile_01 {left: 0px;}
+.tile_02 {left: 170px;}
+.tile_03 {left: 340px;}
+.tile_04 {left: 510px;}
+.tile_05 {left: 680px;}
+
+.row_02 {position: absolute; top: 37%; left: 35%}
+.tile_06 {left: 0px;}
+.tile_07 {left: 170px;}
+.tile_08 {left: 340px;}
+.tile_09 {left: 510px;}
+.tile_10 {left: 680px;}
+
+.row_03 {position: absolute; top: 54%; left: 35%}
+.tile_11 {left: 0px;}
+.tile_12 {left: 170px;}
+.tile_13 {left: 340px;}
+.tile_14 {left: 510px;}
+.tile_15 {left: 680px;}
+
+
+.row_04 {position: absolute; top: 71%; left: 35%}
+.tile_16 {left: 0px;}
+.tile_17 {left: 170px;}
+.tile_18 {left: 340px;}
+.tile_19 {left: 510px;}
+.tile_20 {left: 680px;}
+
+
+
+
+
+
